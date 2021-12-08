@@ -26,6 +26,7 @@ String strSearch = "iphone 11"
 
 //search product
 WebUI.setText(findTestObject('Web/Cart/txt_Search'), strSearch)
+WebUI.takeScreenshot()
 WebUI.click(findTestObject('Web/Cart/btn_SubmitSearch'))
 
 //all product
@@ -37,5 +38,6 @@ for (int i in 2..10) {
 	boolean isProductValid = textobject.toLowerCase().contains(strSearch.toLowerCase())
 	WebUI.verifyMatch(isProductValid.toString(), "true", false) 
 }
+WebUI.takeScreenshot()
 WebUI.delay(1)
 WebUI.closeBrowser()

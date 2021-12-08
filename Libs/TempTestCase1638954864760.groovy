@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/q0/k0qq90_54c16wbm2dmswmjmr0000gn/T/Katalon/Test Cases/Mobile Android/Login/20211208_160835/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/q0/k0qq90_54c16wbm2dmswmjmr0000gn/T/Katalon/Test Cases/Web/SearchProduct/SearchProduct/20211208_161424/execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Mobile Android/Login', new TestCaseBinding('Test Cases/Mobile Android/Login',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Web/SearchProduct/SearchProduct', new TestCaseBinding('Test Cases/Web/SearchProduct/SearchProduct',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
