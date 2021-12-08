@@ -45,5 +45,14 @@ String bodyResponse = respon.getResponseBodyContent()
 WS.comment(bodyResponse)
 if (WS.verifyMatch(rescode, '200', false, FailureHandling.STOP_ON_FAILURE)) {
 	def object = Slurper.parseText(bodyResponse)
-	println object
+	String[] JumUser = object.id
+	println JumUser.length
+	for (int i in 0..JumUser.length-1) {
+		WS.comment(object.id[i].toString())
+		WebUI.verifyMatch(object.id[i].toString().isInteger().toString(), "true", false)
+		WebUI.verifyMatch(object.userId[i].toString().isInteger().toString(), "true", false)
+		WebUI.verifyMatch(object.title[i].toString().isInteger().toString(), "false", false)
+		WebUI.verifyMatch(object.body[i].toString().isInteger().toString(), "false", false)
+	}
+	
 }
