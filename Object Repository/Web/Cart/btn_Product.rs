@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Product</name>
+   <tag></tag>
+   <elementGuidId>5a2c9708-8b4c-4d14-8f3a-6e1c5410caa6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='product-explorer-container']/div/div/div[2]/div/div[2]/div[4]/div/div/div/div/div[2]/div/p/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.bl-text.bl-text--body-14.bl-text--ellipsis__2 > a.bl-link</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://www.bukalapak.com/p/handphone/hp-smartphone/47yuzs8-jual-iphone-11-64gb-128gb-256gb-bekas-second-ori-64-128-256-gb-seken-fulset?from=list-product&amp;pos=0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bl-link</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            iphone 11 64GB 128GB 256GB Bekas Second Ori 64 128 256 GB Seken Fulset
+          </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;product-explorer-container&quot;)/div[@class=&quot;bl-container&quot;]/div[@class=&quot;bl-flex-container&quot;]/div[@class=&quot;bl-flex-item bl-product-list-wrapper&quot;]/div[@class=&quot;bl-flex-container direction-column&quot;]/div[2]/div[4]/div[@class=&quot;bl-flex-container flex-wrap is-gutter-16&quot;]/div[@class=&quot;bl-flex-item mb-8&quot;]/div[@class=&quot;bl-product-card te-product-card&quot;]/div[@class=&quot;bl-product-card__wrapper&quot;]/div[@class=&quot;bl-product-card__description&quot;]/div[@class=&quot;bl-product-card__description-name&quot;]/p[@class=&quot;bl-text bl-text--body-14 bl-text--ellipsis__2&quot;]/a[@class=&quot;bl-link&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='product-explorer-container']/div/div/div[2]/div/div[2]/div[4]/div/div/div/div/div[2]/div/p/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'iphone 11 64GB 128GB 256GB Bekas Second Ori 64 128 256 GB Seken Fulset')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bekas'])[3]/following::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat 3 katalog lainnya'])[1]/following::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jakarta Barat'])[1]/preceding::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kino Phone Cell'])[1]/preceding::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='iphone 11 64GB 128GB 256GB Bekas Second Ori 64 128 256 GB Seken Fulset']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://www.bukalapak.com/p/handphone/hp-smartphone/47yuzs8-jual-iphone-11-64gb-128gb-256gb-bekas-second-ori-64-128-256-gb-seken-fulset?from=list-product&amp;pos=0')])[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p/a</value>
+   </webElementXpaths>
+</WebElementEntity>
