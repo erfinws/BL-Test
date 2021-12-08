@@ -29,7 +29,7 @@ WebUI.setText(findTestObject('Web/Cart/txt_Search'), strSearch)
 WebUI.click(findTestObject('Web/Cart/btn_SubmitSearch'))
 
 //all product
-for (int i in 1..10) {
+for (int i in 2..10) {
 	TestObject to = new TestObject("newObjectWeb")
 	to.addProperty('XPath', ConditionType.EQUALS, "//section[@id='product-explorer-container']/div/div/div[2]/div/div[2]/div[4]/div/div["+i+"]")
 	String textobject = WebUI.getText(to)
