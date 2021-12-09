@@ -13,7 +13,8 @@
 - click dropdown run -> choose Chrome
 
 3. Running Mobile Android
+- connect your device or use AVD
 - go to Test Case -> Mobile Android
 - open test case Login or Register
 - click dropdown run -> choose Android
-- choose android device (connect your device or use AVD)
+- choose android device -> click Ok
