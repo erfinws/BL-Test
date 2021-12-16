@@ -108,8 +108,10 @@
 [35m[Appium][39m Removing session 'ef3aad37-8929-4276-85d4-77ea2e6ac27a' from our master session list
 [35m[UiAutomator2][39m Unable to remove system port forward: Error executing adbExec. Original error: 'Command '/Users/erfin/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 forward --remove tcp\:63066' exited with code 1'; Stderr: 'adb: error: listener 'tcp:63066' not found'; Code: '1'
 [35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
- Replacing sessionId 8e33224e-6746-40bf-997d-21973f157f47 with 7dddea7c-196e-4398-ad41-730fc057c8df
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/7dddea7c-196e-4398-ad41-730fc057c8df/element/e9a2f055-582b-4f1b-a094-e6f8bd658b27/size [39m[32m200[39m [90m11 ms - 86[39m
+[35m[Appium][39m Received SIGTERM - shutting down
+[35m[HTTP][39m Waiting until the server is closed
+[35m[HTTP][39m Received server close event
+dea7c-196e-4398-ad41-730fc057c8df/element/e9a2f055-582b-4f1b-a094-e6f8bd658b27/size [39m[32m200[39m [90m11 ms - 86[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7dddea7c-196e-4398-ad41-730fc057c8df/element/8b9890fe-b2d0-4159-88e4-a843c9b4028e/location[39m
 [35m[HTTP][39m [90m{}[39m

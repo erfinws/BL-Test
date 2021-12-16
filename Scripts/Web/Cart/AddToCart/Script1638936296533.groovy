@@ -16,25 +16,31 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testobject.ConditionType
 
 WebUI.openBrowser('')
 WebUI.navigateToUrl('https://www.bukalapak.com/')
 WebUI.maximizeWindow()
 
 //search product
-WebUI.setText(findTestObject('Web/Cart/txt_Search'), 'iphone 11')
+WebUI.setText(findTestObject('Web/Cart/txt_Search'), 'televisi')
 WebUI.takeScreenshot()
 WebUI.click(findTestObject('Web/Cart/btn_SubmitSearch'))
 
 //choose product
-WebUI.click(findTestObject('Web/Cart/btn_Product'))
+WebUI.click(findTestObject('Web/Cart/btn_Product2'))
 WebUI.takeScreenshot()
-WebUI.click(findTestObject('Web/Cart/btn_ChooseMemory'))
-WebUI.click(findTestObject('Web/Cart/lst_Memory128'))
-WebUI.click(findTestObject('Object Repository/Web/Cart/span_Hitam'))
-WebUI.click(findTestObject('Object Repository/Web/Cart/span_Merah'))
-WebUI.takeScreenshot()
-WebUI.click(findTestObject('Web/Cart/btn_MasukkanKeranjang'))
+//WebUI.click(findTestObject('Web/Cart/btn_ChooseMemory'))
+//WebUI.click(findTestObject('Web/Cart/lst_Memory128'))
+//WebUI.click(findTestObject('Object Repository/Web/Cart/span_Hitam'))
+//WebUI.click(findTestObject('Object Repository/Web/Cart/span_Merah'))
+//WebUI.takeScreenshot()
+if (WebUI.waitForElementPresent(findTestObject('Web/Cart/btn_MasukkanKeranjang'), 1)) {
+	WebUI.click(findTestObject('Web/Cart/btn_MasukkanKeranjang'))
+} else {
+	WebUI.click(findTestObject('Web/Cart/btn_MasukkanKeranjang2'))
+}
+
 
 WebUI.delay(2)
 WebUI.closeBrowser()
